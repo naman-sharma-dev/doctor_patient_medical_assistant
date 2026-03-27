@@ -7,5 +7,12 @@
 #   pip install pocketsphinx
 
 # speech_to_text.py
+# Note: pyaudio requires PortAudio system libraries.
+#   Linux:  sudo apt-get install portaudio19-dev
+#   macOS:  brew install portaudio
+#   Windows: pre-built wheels are included via pip on most systems
 SpeechRecognition==3.15.2
 pyaudio==0.2.14
+
+# app.py (Gradio web UI)
+gradio==6.10.0
